@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | SunilPratap</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link id="favicon" rel="shortcut icon" href="./images/favicon.jpg" type="image/x-png">
+</head>
+
+<body>
+
+
+    <!--Navbar Starts-->
+    <nav class="navbar">
+
+        <a href="#home" class="logo">SUNIL PRATAP</a>
+        
+        <ul>
+            <li class="hide"> <a href="#home">Home</a></li>
+            <li class="hide"> <a href="#about">About</a></li>
+            <li class="hide"> <a href="#skills">Skills</a></li>
+            <li class="hide"> <a href="#education">Educations</a></li>
+            <li class="hide"> <a href="#internships">Internships</a></li>
+            <li class="hide"> <a href="#contact">Contact</a></li>
+            <li class="menu-button" onclick=showSidebar()><a ><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+
+        </ul>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a ><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+            <li class="active" ><a href="#home">Home</a></li>
+            <li> <a href="#about">About</a></li>
+            <li> <a href="#skills">Skills</a></li>
+            <li> <a href="#education">Educations</a></li>
+            <li> <a href="#internships">Internships</a></li>
+            <li> <a href="#contact">Contact</a></li>
+        </ul> 
+
+    </nav>
+
+    <!--Navbar Ends-->
+
+
+    <!--Home Section Starts-->
+
+    <section class="home" id="home">
+
+        <div class="home-info">
+            <h1>Sunil Pratap <span style="color: rgb(38, 170, 69);">Bathina</span> </h1>
+            <h2>I'm a Frontend Developer</h2>
+            <div class="sci">
+                <a href="https://www.linkedin.com/in/sunilpratap-bathina-89302b229/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="mailto:bathinasunilpratap6699"><i class='bx bxl-gmail' ></i> </a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="./images/favicon.jpg" alt="favicon">
+        </div>
+
+    </section>
+
+
+    <!--Home Section Ends-->
+
+
+    <!--About Section Starts-->
+
+    <section class="about" id="about">
+
+        <h2>ABOUT ME</h2>
+
+        <div class="about-info">
+            <img src="./images/sunil.png" alt="SunilPratap image">
+
+            <p><span style="font-size: 30px; font-weight: 600;">I'm SUNIL PRATAP</span> <br>
+            A passionate Frontend Developer with a strong eye for design and 
+            a deep focus on building responsive, user-friendly web interfaces. 
+            With hands-on experience in HTML, CSS, JavaScript, and modern 
+            frameworks like React, I bring designs to life with clean, efficient 
+            code. I thrive on turning complex problems into elegant, intuitive 
+            solutions and constantly strive to stay updated with the latest 
+            trends and technologies in web development. Whether working on a 
+            dynamic single-page application or a responsive website, I’m committed 
+            to delivering seamless digital experiences that engage and inspire 
+            users. Excellent communication and interpersonal skills, with a 
+            proven ability to work both independently and collaboratively within a team.</p>
+
+        </div>
+        <div class="btn-sci">
+                <a href="https://drive.google.com/file/d/1NG829EIZeJa7V--BePgvo0kSQRyYizxc/view" target="_blank" class="btn">Download CV</a>
+        </div>
+
+    </section>
+
+    <!--About Section Ends-->
+
+    <!--Skills Section Starts-->
+
+    <section class="skills" id="skills">
+
+        <h2>SKILLS</h2>
+
+        <div class="skill-images">
+
+            <img src="./images/html.png" alt="html image">
+            <img src="./images/css.png" alt="css image" >
+            <img src="./images/js.png" alt="js image" >
+        
+        </div>
+
+
+    </section>
+
+    <!--Skills Section Ends-->
+
+    <!--Education Section Starts-->
+
+
+    <section class="education" id="education">
+
+        <h2>EDUCATION</h2>
+
+        <div class="btech">
+            <img src="./images/aditya.png" alt="Aditya">
+            <div class="content">
+            <h3 style="color:rgb(88, 13, 158); font-size: 25px; font-weight: 600;">Bachelor of Engineering</h3>
+            <h4 style="color:rgb(80, 128, 32); font-size: 25px; font-weight: 450;">Electronics and Communication Engineering</h4>
+            <p><span style="font-size: 20px; font-weight: 600;"> Aditya College of Engineering & Technology  Surampalem</span></p>
+            <h3 style="color:rgb(80, 128, 32); font-size: 25px; font-weight: 450;">2021-2025 | Completed</h3>
+            </div>
+        </div>
+        
+        <div class="btech">
+            <img src="./images/aditya.png" alt="Aditya">
+            <div class="content">
+            <h3 style="color:rgb(88, 13, 158); font-size: 25px; font-weight: 600;">Intermediate</h3>
+            <h4 style="color:rgb(80, 128, 32); font-size: 25px; font-weight: 450;">MPC</h4>
+            <p><span style="font-size: 20px; font-weight: 600;"> Aditya Junior College | Kakinada</span> </p>
+            <h3 style="color:rgb(80, 128, 32); font-size: 25px; font-weight: 450;">2019-2021 | Completed</h3>
+            </div>
+        </div>
+
+        <div class="btech">
+            <img src="./images/aditya.png" alt="Aditya">
+            <div class="content">
+            <h3 style="color:rgb(88, 13, 158); font-size: 25px; font-weight: 600;">School</h3>
+            <h4 style="color:rgb(80, 128, 32); font-size: 25px; font-weight: 450;">SSC</h4>
+            <p><span style="font-size: 20px; font-weight: 600;"> Aditya School | Kakinada</span></p>
+            <h3 style="color:rgb(80, 128, 32); font-size: 25px; font-weight: 450;">2019 | Completed</h3>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Education Section Ends-->
+
+    <!--Internships Section Starts-->
+
+
+    <section class="internships" id="internships">
+
+        <h2>INTERNSHIPS</h2>
+
+
+        <div class="intern">
+        <a href="https://drive.google.com/file/d/1XHc0-vom4aknnqiUTIjXAzpG1BJ7dOgg/view" target="_blank">
+        <div class="content">
+            <img src="./images/download.png" alt="Thub">
+            <h3 style="color:rgb(88, 13, 158); font-size: 25px; font-weight: 600;"><span style="color: black;">Organization :</span> Technical Hub</h3>
+            <h4 style="color:rgb(80, 128, 32); font-size: 25px; font-weight: 450;">Course : Python</h4>
+            <p>Duration : 2 months</p>
+            <h3 style="color:rgb(80, 128, 32); font-size: 25px; font-weight: 450;">Completed</h3>
+        </div>
+        </a>
+        </div>
+
+        <div class="intern">
+        <a href="https://drive.google.com/file/d/19pZO60r5dsXXaWl6MOGEVhMl4ZoazxGZ/view" target="_blank">
+        <div class="content">
+            <img src="./images/skilldzire.jpeg" alt="SkillDzire">
+            <h3 style="color:rgb(88, 13, 158); font-size: 25px; font-weight: 600;"><span style="color: black;">Organization :</span>  SkillDzire</h3>
+            <h4 style="color:rgb(80, 128, 32); font-size: 25px; font-weight: 450;">Course : FullStack Java</h4>
+            <p>Duration : 2 months</p>
+            <h3 style="color:rgb(80, 128, 32); font-size: 25px; font-weight: 450;">Completed</h3>
+        </div>
+        </a>
+        </div>
+
+        <div class="intern">
+        <a href="https://drive.google.com/file/d/1iIfrbZr3fQ38iVvJljOCgJvdgr4beorN/view" target="_blank">
+        <div class="content">
+            <img src="./images/brainovision_logo.jpeg" alt="BrainOvision">
+            <h3 style="color:rgb(88, 13, 158); font-size: 25px; font-weight: 600;"><span style="color: black;">Organization :</span>  BrainOvision</h3>
+            <h4 style="color:rgb(80, 128, 32); font-size: 25px; font-weight: 450;">Course : AWS</h4>
+            <p>Duration : 2 months</p>
+            <h3 style="color:rgb(80, 128, 32); font-size: 25px; font-weight: 450;">Completed</h3>
+        </div>
+        </a>
+        </div>
+
+        <div class="intern">
+        <a href="https://drive.google.com/file/d/1UsXLe3ojkfzyDnC8uWg7vG56edvDqNEN/view" target="_blank">
+        <div class="content">
+            <img src="./images/skilldzire.jpeg" alt="SkillDzire">
+            <h3 style="color:rgb(88, 13, 158); font-size: 25px; font-weight: 600;"><span style="color: black;">Organization :</span>  SkillDzire</h3>
+            <h4 style="color:rgb(80, 128, 32); font-size: 25px; font-weight: 450;">Course : IOT</h4>
+            <p>Duration : 4 months</p>
+            <h3 style="color:rgb(80, 128, 32); font-size: 25px; font-weight: 450;">Completed</h3>
+        </div>
+        </a>
+        </div>
+
+
+
+    </section>
+
+
+    <!--Internship Section Ends-->
+
+    <!--Contact Section Starts-->
+
+
+    <section class="contact" id="contact">
+
+        <h2>CONTACT</h2>
+
+        <div class="button">
+        <a href="mailto:bathinasunilpratap6699@gmail.com" class="btn">CONTACT ME</a>
+        </div>
+
+    </section>
+
+    <!--Contact Section Ends-->
+
+
+    <!--Javascript Starts-->
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    hideSidebar();
+  });
+
+  function showSidebar(){
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.display = 'flex';
+  }
+
+  function hideSidebar(){
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.display = 'none';
+  }
+
+  if ('scrollRestoration' in history) {
+    history.scrollRestoration = 'auto';
+
+    
+  }
+
+</script>
+
+<!--Javascript Ends-->
+
+</body>
+</html>
